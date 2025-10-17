@@ -64,10 +64,10 @@ a:visited{
     padding:2px;
     border-radius:3px;
 }
-@media (max-width: 1200px){
+@media (max-width: 4000px){
     #container{
-        background:#004385;
-        width:90%;
+        width:100%;
+        background:#cee3f5 !important;
     }
 }
 @media (max-width: 900px){
@@ -75,6 +75,7 @@ a:visited{
         width:100%;
     }
     #container,p{
+        background:#cee3f5;
         margin:0;
         padding:0;
         border:none;
