@@ -26,12 +26,14 @@ p{
     line-height: 2em;
 }
 img{
-    width: 400px;
-    height: 350px;
+    width:250px;
+    height:250px;
     float: left;
     margin-right: 15px;
 }
-#spaceimg{
+#famimg{
+    width:40%;
+    height:40%;
     float: right;
     margin-left:15px;
 }
@@ -56,25 +58,26 @@ a:link{
     font-style: italic;
 }
 a:visited{
-    color:#29003c;
+    color:#57007f;
+    font-style:italic;
 }
 .highlight{
     background: white;
     color:#004385;
-    padding:2px;
+    padding:4px;
     border-radius:3px;
 }
-@media (max-width: 3000px){
+@media (max-width: 1200px){
     #container{
-        width:100%;
-        align-content: center;
+        width:900px;
+        background-color:#BFD7EA;
     }
 }
-@media (max-width: 700px){
+@media (max-width: 800px){
     #container{
         width:100%;
     }
-    #container,p{
+    #container,p, body, h2{
         background:#cee3f5 !important;
         margin:0;
         padding:0;
